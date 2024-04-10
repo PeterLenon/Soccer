@@ -30,11 +30,41 @@
     <div class="accountInfo" id="AccountInfo">
       <div>
         <p id="userEmail">peterLenon@example.com</p>
-        <div class="accountInfoIcon">
-          <img id="userIcon" src="" alt="P" />
+
+        <img class="accountInfoIcon" id="userIcon" src="" alt="P" />
+
+        <div class="contact-details">
+          <div id="collectedInformation">
+            <div style="display: flex">
+              <label>Call me:</label>
+              <p id="userName">Peter Lenon</p>
+            </div>
+            <div style="display: flex">
+              <label>Sports:</label>
+              <p id="bio">
+                I am a big fan of Zidane and I play centerback. My interests
+                include soccer and futsal.
+              </p>
+            </div>
+            <button id="edit" onclick="collectInformation()">Edit</button>
+          </div>
+          <div id="collectInformation" style="display: none;">
+            <div style="display: flex">
+              <label>Call me:</label>
+              <input id="userName" placeholder="Peter Lenon"> 
+            </div>
+            <div>
+              <label>Sports:</label>
+              <textarea id="bio">
+                I am a big fan of Zidane and I play centerback. My interests
+                include soccer and futsal.
+              </textarea>
+              
+              <button id="save">Save</button>
+          </div>
+          
         </div>
       </div>
-      <button id="edit">Edit</button>
     </div>
   </body>
 </html>

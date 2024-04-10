@@ -60,3 +60,17 @@
     right: 17%;
     top: 70%;
 }
+
+.contact-details {
+    position: fixed;
+    top: 30%;
+    right: 10%;
+    width: 300px;
+}
+
+#bio {
+    width: 200px;
+    height: 200px;
+    border: 20px gray;
+    resize: none;
+}

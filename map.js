@@ -46,3 +46,13 @@ function showMenu() {
 }
 
 let myMap = setView_to_user_location();
+
+function collectInformation() {
+  let collectInf = document.getElementById("collectInformation");
+  let collectedInfo = document.getElementById("collectedInformation");
+
+  collectInf.style.display = "block";
+  collectInf.style.right = collectedInfo.style.right;
+  collectInf.style.top = collectedInfo.style.top;
+  collectedInfo.style.display = "none";
+}
