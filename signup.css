@@ -1,0 +1,50 @@
+.signup {
+    display: flex;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vh;
+    height: 50vh;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, .8);
+    border-radius: 12px;
+
+}
+
+.signup-credentials {
+    margin: 5%;
+    width: 70%;
+}
+
+.signup-credential {
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 30px;
+}
+
+#submit {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+#signUpWithGoogle {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+
+}
+
+button {
+    border-radius: 12px;
+    height: 30px;
+}
